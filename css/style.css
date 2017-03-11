@@ -92,7 +92,7 @@ footer {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   header .jumbotron {
-    background: url('assets/jumbotron_1200.jpg') no-repeat center center scroll;
+    background: url('../assets/jumbotron_1200.jpg') no-repeat center center scroll;
     height: 176px;
     position: relative;
   }
@@ -118,7 +118,7 @@ footer {
 
   /* Home Page */
   header .jumbotron {
-    background: url('assets/jumbotron_992.jpg') no-repeat center center scroll;
+    background: url('../assets/jumbotron_992.jpg') no-repeat center center scroll;
     height: 120px;
     position: relative;
   }
@@ -136,7 +136,7 @@ footer {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   header .jumbotron {
-    background: url('assets/jumbotron_768.jpg') no-repeat center center scroll;
+    background: url('../assets/jumbotron_768.jpg') no-repeat center center scroll;
     height: 100px;
     position: relative;
   }
@@ -197,7 +197,7 @@ footer {
 
   /* Home Page */
   header .jumbotron {
-    background: url('assets/jumbotron_768.jpg') no-repeat center center scroll;
+    background: url('../assets/jumbotron_768.jpg') no-repeat center center scroll;
     height: 70px;
     position: relative;
   }
