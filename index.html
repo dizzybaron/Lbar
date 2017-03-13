@@ -45,7 +45,7 @@
                         <a href="#">幫助</a>
                     </li>
                     <li class="dropdown">
-                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span><span class="caret"></span></a>
+                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user hidden-xs"></span><p class="visible-xs">個人設定</p><span class="caret visible-xs"></span></a>
           					<ul class="dropdown-menu">
             					<li><a href="#">首頁</a></li>
             					<li><a href="#">帳號設定</a></li>
@@ -62,109 +62,113 @@
 
     <!-- Full Width Image Header with Logo -->
     <!-- Image backgrounds are set within the full-width-pics.css file. -->
-    <header class="image-bg-fluid-height">
-    	<div class="jumbotron">
-    		<div class="container">
-    			<h1>Let's Play!</h1>
-    		</div>
-    	</div>
-    </header>
-	
-	<!-- Tab Section-->
-	<div class="container">
-		<ul class="nav nav-tabs">
-			<li class="active"><a href="index.html">歷屆考題</a></li>
-			<li><a href="journal.html">學習日誌</a></li>
-			<li><a href="custompool.html">自訂題庫</a></li>
-			<li><a href="favorite.html">我的最愛</a></li>
-		</ul>
-	</div>
+    <div id="wrap">
+    	<div id="main">
+		    <header class="image-bg-fluid-height">
+		    	<div class="jumbotron">
+		    		<div class="container">
+		    			<h1>Let's Play!</h1>
+		    		</div>
+		    	</div>
+		    </header>
+			
+			<!-- Tab Section-->
+			<div class="container">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="index.html">歷屆考題</a></li>
+					<li><a href="journal.html">學習日誌</a></li>
+					<li><a href="custompool.html">自訂題庫</a></li>
+					<li><a href="favorite.html">我的最愛</a></li>
+				</ul>
+			</div>
 
-    <!-- Content Section -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 container-fluid">
-                    <h1 class="section-heading">106-寒</h1>
-                    <div class="lbar-container">
-                    	<div class="row vertical-align">
-                    		<div class="col-lg-4"><h2 class="lead section-lead">醫學一</h2></div>
-                    		<div class="col-lg-8">
-                    			<div class="col-lg-5"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
-                    			<div class="col-lg-5"><a href="#"><strong>閱讀詳解</strong></a></div>
-                    		</div>
-                    	</div>
-                    	<div class="row vertical-align">
-                    		<div class="col-lg-4"><h2 class="lead section-lead">醫學二</h2></div>
-                    		<div class="col-lg-8">
-                    			<div class="col-lg-5"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
-                    			<div class="col-lg-5"><a href="#"><strong>閱讀詳解</strong></a></div>
-                    		</div>
-                    	</div>
-                    </div>
-                </div>
-                <div class="col-lg-4 container-fluid">
-                    <h1 class="section-heading">105-暑</h1>
-                    <div class="lbar-container">
-                    	<div class="row vertical-align">
-                    		<div class="col-lg-4"><h2 class="lead section-lead">醫學一</h2></div>
-                    		<div class="col-lg-8">
-                    			<div class="col-lg-5"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
-                    			<div class="col-lg-5"><a href="#"><strong>閱讀詳解</strong></a></div>
-                    		</div>
-                    	</div>
-                    	<div class="row vertical-align">
-                    		<div class="col-lg-4"><h2 class="lead section-lead">醫學二</h2></div>
-                    		<div class="col-lg-8">
-                    			<div class="col-lg-5"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
-                    			<div class="col-lg-5"><a href="#"><strong>閱讀詳解</strong></a></div>
-                    		</div>
-                    	</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 container-fluid">
-                    <h1 class="section-heading">105-寒</h1>
-                    <div class="lbar-container">
-                    	<div class="row vertical-align">
-                    		<div class="col-lg-4"><h2 class="lead section-lead">醫學一</h2></div>
-                    		<div class="col-lg-8">
-                    			<div class="col-lg-5"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
-                    			<div class="col-lg-5"><a href="#"><strong>閱讀詳解</strong></a></div>
-                    		</div>
-                    	</div>
-                    	<div class="row vertical-align">
-                    		<div class="col-lg-4"><h2 class="lead section-lead">醫學二</h2></div>
-                    		<div class="col-lg-8">
-                    			<div class="col-lg-5"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
-                    			<div class="col-lg-5"><a href="#"><strong>閱讀詳解</strong></a></div>
-                    		</div>
-                    	</div>
-                    </div>
-                </div>
-                <div class="col-lg-4 container-fluid">
-                    <h1 class="section-heading">104-暑</h1>
-                    <div class="lbar-container">
-                    	<div class="row vertical-align">
-                    		<div class="col-lg-4"><h2 class="lead section-lead">醫學一</h2></div>
-                    		<div class="col-lg-8">
-                    			<div class="col-lg-5"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
-                    			<div class="col-lg-5"><a href="#"><strong>閱讀詳解</strong></a></div>
-                    		</div>
-                    	</div>
-                    	<div class="row vertical-align">
-                    		<div class="col-lg-4"><h2 class="lead section-lead">醫學二</h2></div>
-                    		<div class="col-lg-8">
-                    			<div class="col-lg-5"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
-                    			<div class="col-lg-5"><a href="#"><strong>閱讀詳解</strong></a></div>
-                    		</div>
-                    	</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+		    <!-- Content Section -->
+		    <section>
+		        <div class="container">
+		            <div class="row">
+		                <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 container-fluid">
+		                    <h1 class="section-heading">106-寒</h1>
+		                    <div class="lbar-container">
+		                    	<div class="row vertical-align">
+		                    		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 vertical-align"><h2 class="lead section-lead">醫學一</h2></div>
+		                    		<div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#"><strong>閱讀詳解</strong></a></div>
+		                    		</div>
+		                    	</div>
+		                    	<div class="row vertical-align">
+		                    		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 vertical-align"><h2 class="lead section-lead">醫學二</h2></div>
+		                    		<div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#"><strong>閱讀詳解</strong></a></div>
+		                    		</div>
+		                    	</div>
+		                    </div>
+		                </div>
+		                <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 container-fluid">
+		                    <h1 class="section-heading">105-暑</h1>
+		                    <div class="lbar-container">
+		                    	<div class="row vertical-align">
+		                    		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 vertical-align"><h2 class="lead section-lead">醫學一</h2></div>
+		                    		<div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#"><strong>閱讀詳解</strong></a></div>
+		                    		</div>
+		                    	</div>
+		                    	<div class="row vertical-align">
+		                    		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 vertical-align"><h2 class="lead section-lead">醫學二</h2></div>
+		                    		<div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#"><strong>閱讀詳解</strong></a></div>
+		                    		</div>
+		                    	</div>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="row">
+		                <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 container-fluid">
+		                    <h1 class="section-heading">105-寒</h1>
+		                    <div class="lbar-container">
+		                    	<div class="row vertical-align">
+		                    		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 vertical-align"><h2 class="lead section-lead">醫學一</h2></div>
+		                    		<div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#"><strong>閱讀詳解</strong></a></div>
+		                    		</div>
+		                    	</div>
+		                    	<div class="row vertical-align">
+		                    		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 vertical-align"><h2 class="lead section-lead">醫學二</h2></div>
+		                    		<div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#"><strong>閱讀詳解</strong></a></div>
+		                    		</div>
+		                    	</div>
+		                    </div>
+		                </div>
+		                <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 container-fluid">
+		                    <h1 class="section-heading">104-暑</h1>
+		                    <div class="lbar-container">
+		                    	<div class="row vertical-align">
+		                    		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 vertical-align"><h2 class="lead section-lead">醫學一</h2></div>
+		                    		<div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#"><strong>閱讀詳解</strong></a></div>
+		                    		</div>
+		                    	</div>
+		                    	<div class="row vertical-align">
+		                    		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 vertical-align"><h2 class="lead section-lead">醫學二</h2></div>
+		                    		<div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#" class="lbar-yellow"><strong>開始測驗</strong></a></div>
+		                    			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 vertical-space-sm vertical-space-xs"><a href="#"><strong>閱讀詳解</strong></a></div>
+		                    		</div>
+		                    	</div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </section>
+	    </div>
+    </div>
 
     <!-- Footer -->
     <footer class="bs-docs-footer">

@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-size: 14px;
@@ -30,8 +34,8 @@ nav div a {
 .lbar-container {
   background-color: #f5f5f5;
   border-radius: 4px;
-  padding-left: 30px;
-  padding-top: 10px;
+  padding-left: 2.5em;
+  padding-top: .6em;
   padding-bottom: 10px;
 }
 
@@ -44,7 +48,7 @@ nav div a {
 .bs-docs-footer {
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-top: 100px;
+  margin-top: 0px;
   color: #99979c;
   background-color: #2a2730;
 }
@@ -69,6 +73,17 @@ nav div a {
 
 .bs-docs-footer-link li+li {
   margin-left: 15px;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -169px;
+  padding: 0 0 169px;
+}
+
+#main {
+  margin-bottom: 150px;
 }
 
 /* Typography & Color START*/
@@ -265,7 +280,10 @@ section {
     font-size: 3.5em;
   }
   /* End Home Page */
-
+  .vertical-space-sm {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -285,6 +303,9 @@ section {
   }
   .navbar-brand p img { /* Star-K */
     height: 20px;
+  }
+  .navbar p {
+    font-size: 1em;
   }
 
   #collapsable-nav a { /* Collapsed nav menu text */
@@ -325,6 +346,10 @@ section {
   	text-shadow: 1px 1px 4px #dddddd;
   	position: absolute;
   	bottom: 0;
+  }
+  .vertical-space-xs {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
 }
