@@ -36,7 +36,7 @@ nav div a {
   border-radius: 4px;
   padding-left: 2.5em;
   padding-top: .6em;
-  padding-bottom: 10px;
+  padding-bottom: 1em;
 }
 
 .vertical-align {
@@ -83,7 +83,21 @@ nav div a {
 }
 
 #main {
-  margin-bottom: 150px;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+#main>.container>h1 {
+  margin-top: 100px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dddddd;
+}
+
+#bottom-right-fix {
+  position: absolute;
+  bottom: 5em;
+  right: 5em;
 }
 
 /* Typography & Color START*/
@@ -161,6 +175,27 @@ button.navbar-toggle:hover, .icon-bar:hover {
   box-shadow: 0px 1px 1px #ededed
 }
 
+.btn-default {
+  color: #444444;
+  background-color: #fff;
+  border-color: #dddddd;
+}
+.btn-default:hover {
+  color: #444444;
+  background-color: #dddddd;
+  border-color: #dddddd;
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #F19B31;
+  border-color: transparent;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #fdc62b;
+  border-color: #fdc62b; 
+}
+
 
 /* Button END */
 
@@ -181,7 +216,7 @@ header .jumbotron {
 }
 
 .image-bg-fluid-height {
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .image-bg-fixed-height {
@@ -203,7 +238,7 @@ section {
 }
 
 .section-lead {
-    margin: 30px 0;
+    margin: 20px 0 30px 0;
     font-size: 2em;
 }
 
