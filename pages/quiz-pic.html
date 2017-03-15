@@ -13,7 +13,7 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link href="<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+	<link href="<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
 
 </head>
 
@@ -75,62 +75,85 @@
     <div id="wrap">
     	<div id="main">
 		    <!-- Content Section -->
-		    <div id="fixed-line" class="container">
-		    	<h1>準備開始 106-寒，醫學一 的測驗。</h1>
+		    <div class="container">
+		    	<div class="row">
+                    <div class="col-lg-12">
+                        <ol class="breadcrumb">
+                            <li>106-寒</li>
+                            <li>醫學二</li>
+                            <li class="active">測驗</li>
+                        </ol>
+                    </div>
+                    <div class="col-lg-8 col-xs-12">
+                        <h1>64.</h1>
+                    </div>
+                    <div class="col-lg-4 col-xs-12">
+                        <div class="col-lg-4 col-xs-4">
+                            <a id="mark" href="#" class="pull-left">題號註記</a>
+                        </div>
+                        <div class="col-lg-4 col-xs-4">
+                            <a id="overview" href="#">瀏覽作答情形</a>
+                        </div>
+                        <div class="col-lg-4 col-xs-4">
+                            <a id="endtest" href="#" class="pull-right">結束作答</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <h3 id="question">一名小孩因感冒而服用阿斯匹林（aspirin），隨後發生了肝及腦的病變。肝臟變化如圖所示，他的腦部病變最有可能是：</h3>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="../assets/quizExPic.png" class="img-responsive" alt="Responsive image">
+                    </div>       
+                </div>
 		    </div>
-		    <section>
+		    <section id="choice-section">
 		        <div class="container">
 		            <div class="row">
 		                <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 container-fluid">
-		                    <h1 class="section-heading">作答選項</h1>
-		                    <div class="lbar-container">
-		                    	<div class="row">
-		                    		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><h2 class="lead section-lead">即時顯示答案</h2></div>
-		                    		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-		                    			<div class="radio">
-										  	<label class="radio-inline col-lg-3 col-md-3 col-sm-4 col-xs-4 vertical-space-sm vertical-space-xs">
-											  	<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 是
-											</label>
-											<label class="radio-inline col-lg-3 col-md-3 col-sm-4 col-xs-4 vertical-space-sm vertical-space-xs">
-											  	<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 否
-											</label>
-										</div>
-		                    		</div>
-		                    		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><h2 class="lead section-lead">顯示作答時間</h2></div>
-		                    		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-		                    			<div class="radio">
-										  	<label class="radio-inline col-lg-3 col-md-3 col-sm-4 col-xs-4 vertical-space-sm vertical-space-xs">
-											  	<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 是
-											</label>
-											<label class="radio-inline col-lg-3 col-md-3 col-sm-4 col-xs-4 vertical-space-sm vertical-space-xs">
-											  	<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 否
-											</label>
-										</div>
-		                    		</div>
-		                    	</div>
-		                    </div>
+		                    <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                    核黃疸(kernicterus) 
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                    點狀出血(petechial hemorrhage) 
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option2">
+                                    腦水腫(brain edema) 
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios4" value="option2">
+                                    豆狀核變性(lenticular degeneration) 
+                                </label>
+                            </div>
 		                </div>
 		            </div>
 		        </div>
 		    </section>
-		    <div id="bottom-right-fix" class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
-		    	<a href="../index.html" class="btn btn-default btn-lg btn-block">回主選單</a>
-				<a href="quiz.html" class="btn btn-primary btn-lg btn-block">開始作答</a>
-		    </div>
 	    </div>
     </div>
 
     <!-- Footer -->
-    <footer class="bs-docs-footer">
+    <footer class="navbar navbar-nav navbar-default navbar-fixed-bottom lbar-bottombar">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <ul class="bs-docs-footer-link">
-                    	<li><a href="mailto:learningbar2015@gmail.com">Email</a></li>
-                    	<li><a href="https://www.facebook.com/%E5%AD%B8Bar-Learning-Bar-191554607880337/?fref=ts" target="_blank">Facebook</a></li>
-                    </ul>
-                    <p class="footer-p">Copyright &copy; Learning Bar 2017</p>
-                </div>
+                <span class="col-lg-2">
+                    <a href="quiz.html" class="btn btn-default btn-lg btn-block">上一題</a>
+                </span>
+                <span class="col-lg-2">
+                    <a href="#" class="btn btn-primary btn-lg btn-block">下一題</a>
+                </span>
+                <span class="col-lg-8">
+                    <h3 id="clock" class="pull-right">剩餘時間：01:22:43</h3>
+                </span>
             </div>
             <!-- /.row -->
         </div>
