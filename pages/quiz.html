@@ -88,14 +88,38 @@
                         <h1>64.</h1>
                     </div>
                     <div class="col-lg-4 col-xs-12">
-                        <div class="col-lg-4 col-xs-4">
-                            <a id="mark" href="#" class="pull-left">題號註記</a>
+                        <div class="col-lg-4 col-xs-4 dropdown">
+                            <button id="mark" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            題號註記
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="radio">
+                                        <label id="mark1"><input type="radio" name="optradio">註記1</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="radio">
+                                        <label id="mark2"><input type="radio" name="optradio">註記2</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="radio">
+                                        <label id="mark3"><input type="radio" name="optradio">註記3</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="radio">
+                                        <label id="mark-none"><input type="radio" name="optradio">不註記</label>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                         <div class="col-lg-4 col-xs-4">
-                            <a id="overview" href="#">瀏覽作答情形</a>
+                            <a id="overview" href="overview.html">瀏覽作答情形</a>
                         </div>
                         <div class="col-lg-4 col-xs-4">
-                            <a id="endtest" href="#" class="pull-right">結束作答</a>
+                            <button type="button" id="endtest" class="btn btn-info btn-lg btn-link" data-toggle="modal" data-target="#myModal">結束作答</button>
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -137,7 +161,26 @@
 		    </section>
 	    </div>
     </div>
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
 
+    <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">結束作答</h4>
+                </div>
+                <div class="modal-body">
+                    <p>即將送出測驗並結算成績，確定要繼續？</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">關閉</button>
+                    <button type="button" class="btn btn-default btn-primary" data-dismiss="modal">送出</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Footer -->
     <footer class="navbar navbar-nav navbar-default navbar-fixed-bottom lbar-bottombar">
         <div class="container">

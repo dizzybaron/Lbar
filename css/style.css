@@ -136,6 +136,11 @@ h3 {
   font-weight: 800;
   line-height: 1.92em;
 }
+h4 {
+  color: #000;
+  font-size: 1.3em;
+  font-weight: 400;
+}
 
 p {
   font-size: 1.5em;
@@ -205,10 +210,37 @@ button.navbar-toggle:hover, .icon-bar:hover {
 #mark {
   color: #F19B31;
   font-size: 1em;
+  background-color: #fff;
+  border: 0;
 }
 #mark:hover {
   color: #fdc62b;
   text-decoration: none;
+}
+
+#mark1 {
+  color: #F19B31;
+  font-size: 1em;
+  background-color: transparent;
+  border: 0;
+}
+#mark2 {
+  color: #CE3E2C;
+  font-size: 1em;
+  background-color: transparent;
+  border: 0;
+}
+#mark3 {
+  color: #3370BA;
+  font-size: 1em;
+  background-color: transparent;
+  border: 0;
+}
+#mark-none {
+  color: #444444;
+  font-size: 1em;
+  background-color: transparent;
+  border: 0;
 }
 
 #overview {
@@ -219,6 +251,24 @@ button.navbar-toggle:hover, .icon-bar:hover {
   color: #66cc33;
   text-decoration: none;
 }
+#overview-quiz {
+  border: none;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 5px;
+  border-bottom: 5px solid #000000;
+}
+#overview-quiz>.pull-left {
+  font-size: 1.3em;
+  font-weight: 800;
+  margin: 0;
+}
+#overview-quiz>.pull-right {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 0;
+}
+
 
 #endtest {
   color: #E84130;
@@ -264,6 +314,20 @@ button.navbar-toggle:hover, .icon-bar:hover {
 .radio label {
   font-size: 1.5em;
   line-height: 2.25em;
+}
+.dropdown-menu>li>.radio {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+}
+.dropdown-menu>li>.radio:focus, .dropdown-menu>li>.radio:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
 }
 
 /* Button END */
