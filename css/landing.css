@@ -3,19 +3,6 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-.heading-font {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
-  letter-spacing: 1px;
-}
-.body-font {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-}
-.alt-font {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
 html,
 body {
   height: 100%;
@@ -61,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Open Sans', "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -76,13 +63,13 @@ p {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Open Sans', "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
   font-weight: 200;
   letter-spacing: 1px;
 }
 .navbar-default .btn-link {
   color: #444444;
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: 2px;
   line-height: 20px;
   border-top: 0px;
@@ -94,13 +81,18 @@ p {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+.navbar-default .btn-link:focus, .navbar-default .btn-link:hover {
+  text-decoration: none;
+  color: #dddddd;
+}
+
 .navbar-brand > img {
   width: 40px;
   height: 40px;
   position: center;
 }
 .navbar-default .navbar-header .navbar-brand {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
   color: #fdcc52;
@@ -119,10 +111,9 @@ p {
   padding-bottom: 5px;
 }
 .navbar-default .nav > li > a {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
@@ -160,7 +151,7 @@ p {
   }
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
-    color: white;
+    color: #dddddd;
   }
   .navbar-default.affix {
     background-color: white;
@@ -184,10 +175,9 @@ p {
 }
 
 #hero{
-  background: url("../img/hero.png");
-  background-size:cover;
-  background-position:center;
-  height:100vh;
+  background: url("../img/hero.png") no-repeat;
+  background-size: 1280px 500px;
+  background-position: 0 50px;
 }
 
 header {
@@ -195,11 +185,6 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -241,7 +226,7 @@ header .device-container .screen img {
   header .header-content {
     text-align: left;
     padding: 0;
-    height: 100vh;
+    height: 550px;
   }
   header .header-content .header-content-inner {
     max-width: none;
@@ -265,7 +250,7 @@ header .device-container .screen img {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 20px 0;
 }
 section h2 {
   font-size: 50px;
@@ -380,6 +365,8 @@ section.cta .overlay {
 }
 section.contact {
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
 }
 section.contact h2 {
   margin-top: 0;
@@ -419,20 +406,20 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 footer {
-  background-color: #222222;
+  background-color: #444444;
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.3);
   text-align: center;
 }
 footer p {
-  font-size: 12px;
+  font-size: 14px;
   margin: 0;
 }
 footer ul {
   margin-bottom: 0;
 }
 footer ul li a {
-  font-size: 12px;
+  font-size: 1px;
   color: rgba(255, 255, 255, 0.3);
 }
 footer ul li a:hover,
@@ -442,9 +429,7 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #444444;
 }
 .text-primary {
   color: #fdcc52;
@@ -467,14 +452,13 @@ footer ul li a.active {
   border-color: #fdcc52;
 }
 .btn {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
 }
 .btn-xl {
   padding: 15px 45px;
-  font-size: 11px;
+  font-size: 16px;
 }
 ::-moz-selection {
   color: white;
